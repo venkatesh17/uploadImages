@@ -59,6 +59,7 @@ function checkFileType(file, cb){
     }
 }
 
+
 //file upload
 app.post('/api/upload', function(req,res){
     upload(req,res, function(err){
@@ -78,6 +79,7 @@ app.post('/api/upload', function(req,res){
         }
     })
 })
+
 
 
 const PORT = process.env.PORT || 3000
